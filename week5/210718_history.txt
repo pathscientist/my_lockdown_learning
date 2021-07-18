@@ -1,0 +1,1774 @@
+    1  cd
+    2  q
+    3  exit
+    4  vim ~/.zshrc
+    5  exit
+    6  ls
+    7  cd downloads/src
+    8  cd Downloads/src
+    9  wget -c ^[[200~https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-4.7.12-Linux-x86_64.sh~
+   10  wget -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-4.7.12-Linux-x86_64.sh
+   11  bash Miniconda3-4.7.12-Linux-x86_64.sh
+   12  source .bashrc
+   13  source .zshrc
+   14  conda
+   15  rm -rf ~/anaconda3
+   16  ls
+   17  rm -rf ~/miniconda3
+   18  ls
+   19  cd /Downloads/src
+   20  cd /Downloads
+   21  cd Downloads/src
+   22  ls
+   23  bash Miniconda3-4.7.12-Linux-x86_64.sh
+   24  conda search bwa
+   25  source ~/miniconda3/bin/activate
+   26  conda search bwa
+   27  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+   28  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/\nconda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/\nconda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/\nconda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+   29  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+   30  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+   31  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+   32  conda search bwa
+   33  vim ~/.condarc
+   34  conda search bwa
+   35  conda install bwa -y
+   36  bwa
+   37  echo $PATH
+   38  conda info --envs
+   39  conda list
+   40  ls -h
+   41  ls -l
+   42  df
+   43  df -h
+   44  pwd
+   45  ls
+   46  mkdir do
+   47  ls
+   48  mkdir do/align
+   49  mkdir -p blast/2020
+   50  ls
+   51  rmdir do
+   52  rmdir -p do
+   53  rmdir -p do/align
+   54  ls
+   55  rmdir -p blast/2020
+   56  ls
+   57  ls -l
+   58  ls -lR
+   59  ls *.fastq
+   60  ls /tmp/seq*
+   61  top
+   62  ps -u
+   63  w
+   64  last
+   65  last hanchochang
+   66  man list
+   67  python3
+   68  pwd
+   69  ls
+   70  cd /mnt/e/linux/windows_ubuntu_share
+   71  cd /mnt/hgfs
+   72  ls
+   73  cd windows_ubuntu_share
+   74  ls
+   75  python3
+   76  su
+   77  pwd
+   78  ls
+   79  cd /
+   80  ll
+   81  conda search sra
+   82  ls
+   83  cd miniconda3/bin/
+   84  ls
+   85  chmod 777 activate
+   86  source ./activate
+   87  conda list
+   88  . ./deactivate
+   89  cd
+   90  cd -
+   91  conda install --help
+   92  cd
+   93  ll -A
+   94  cat ./condarc
+   95  cat .condarc
+   96  cona list
+   97  conda list
+   98  conda search sra
+   99  cd miniconda3/bin/
+  100  ll
+  101  ls
+  102  . ./activate
+  103  conda search sra
+  104  conda install sra
+  105  conda install -y -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda homer
+  106  conda search sra
+  107  cat ~/.condarc
+  108  conda search sra
+  109  cd miniconda3/bin/
+  110  . ./activate
+  111  conda search sra
+  112  conda install sra-tools
+  113  cd miniconda3/bin/
+  114  conda search sra
+  115  . ./activate
+  116  conda search sra
+  117  ls
+  118  mkdir bioinf
+  119  ll
+  120  cd bioinf
+  121  mkdir reference
+  122  cd reference
+  123  mkdir hg38
+  124  cd hg38
+  125  wget https://hgdownload.cse.ucsc.edu/goldenpath/hg38/bigZips/hg38.fa.gz
+  126  ll
+  127  cd
+  128  ls
+  129  cd miniconda3
+  130  ls
+  131  ll
+  132  cd bin
+  133  ll
+  134  ls
+  135  cd
+  136  source ~/miniconda3/bin/activate
+  137  vim ~/.condarc
+  138  echo $PATH
+  139  source deactivate
+  140  echo $PATH
+  141  ls
+  142  echo $PATH
+  143  cd bioinf
+  144  echo $PATH
+  145  pwd
+  146  cd
+  147  cd /home
+  148  ls
+  149  cd /
+  150  pwd
+  151  ls
+  152  cd usr
+  153  ls
+  154  cd bin
+  155  pwd
+  156  ls
+  157  source ~/miniconda3/bin/activate
+  158  conda info --envs
+  159  ls
+  160  cd miniconda3
+  161  ls
+  162  cd
+  163  source ~/miniconda/bin/activate
+  164  source ~/miniconda3/bin/activate
+  165  source deactivate
+  166  vim .bashrc
+  167  source ~/miniconda3/bin/activate
+  168  conda create -n rna python=2
+  169  conda info --envs
+  170  source activate rna
+  171  conda install bwa
+  172  bwa
+  173  conda install sra-tools
+  174  conda install trimmomatic
+  175  conda install cutadapt multiqc
+  176  conda install trim-galore
+  177  conda install star hisat2 bowtie2
+  178  conda install subread tophat htseq bedtools deeptools
+  179  conda install salmon
+  180  source deactivate
+  181  ls
+  182  source deativate
+  183  source deactivate
+  184  source deactivate rna
+  185  conda deactivate
+  186  cd miniconda3
+  187  ls
+  188  ll
+  189  ls envs
+  190  ls envs/rna
+  191  ls envs/rna/bin
+  192  ls
+  193  echo $PATH
+  194  ls
+  195  source ~/miniconda3/bin/activate
+  196  source activate rna
+  197  echo $PATH
+  198  conda deactivate
+  199  cd
+  200  mkdir -p project/airway/
+  201  ls
+  202  pstree
+  203  tree
+  204  ll
+  205  cd project/airway
+  206  touch SRR_Acc_List.txt
+  207  ls
+  208  vim SRR_Acc_List.txt
+  209  wkd=/home/hanchochang/project/airway/
+  210  source activate rna
+  211  source ~/miniconda3/bin/activate
+  212  source activate rna
+  213  cat SRR_Acc_List.txt | while read id; do (prefetch  ${id} );done
+  214  top
+  215  prefetch
+  216  source ~/miniconda3/bin/activate
+  217  source activate rna
+  218  prefetch
+  219  cd project/airway
+  220  ls
+  221  cat >id
+  222  cat id
+  223  ls
+  224  vim id
+  225  cat id
+  226  prefect
+  227  prefetch
+  228  head id
+  229  prefetch SRR1039508
+  230  ls -lh
+  231  ls
+  232  cd project
+  233  ls
+  234  cd airway
+  235  ls
+  236  ps -ef
+  237  ps -ef | grep prefetch
+  238  ll
+  239  ps -ef | grep prefetch | awk '{print $2}' | while read id; do kill ${id}; done
+  240  rm SRR1039508
+  241  cd SRR1039508
+  242  ls
+  243  ll
+  244  cd -
+  245  rm -rf SRR1039508
+  246  for ((i=508;i<=523;i++)) ;do echo ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP033/SRP033351/SRR1039$i/SRR1039$i.sra\;done\n
+  247  cd
+  248  tree bioinf
+  249  cd
+  250  wget https://download.asperasoft.com/download/sw/connect/3.9.9/ibm-aspera-connect-3.9.9.177872-linux-g2.12-64.tar.gz
+  251  ls
+  252  wget -c http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.10.5/sratoolkit.2.10.5-ubuntu64.tar.gz
+  253  wget -c ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.10.5/sratoolkit.2.10.5-ubuntu64.tar.gz
+  254  tar zvxf sratoolkit.2.10.5-ubuntu64.tar.gz -C ~/bioinf
+  255  cd bioinf
+  256  ls
+  257  ~/bioinf/sratoolkit.2.10.5-ubuntu64/bin/fastq-dump -h
+  258  vdb-config --interactive
+  259  ~/bioinf/sratoolkit.2.10.5-ubuntu64/bin/fastq-dump
+  260  which fastq-dump
+  261  cd sratoolkit.2.10.5-ubuntu64
+  262  ls
+  263  cd bin
+  264  ls
+  265  fastq-dump
+  266  cd
+  267  echo 'export PATH=~/bioinf/sratoolkit.2.9.2-ubuntu64/bin:$PATH'  >> ~/.bashrc
+  268  source ~/.bashrc
+  269  fastq-dump
+  270  prefetch
+  271  less .bashrc
+  272  cd bioinf
+  273  cd sratoolkit.2.10.5-ubuntu64
+  274  cd bin
+  275  ./fastq-dump -X 5 -Z SRR390728
+  276  cd
+  277  ls
+  278  cd bioinf
+  279  ls
+  280  rm -rf sratoolkit.2.10.5-ubuntu64
+  281  ls
+  282  cd
+  283  mv sratoolkit.2.10.5-ubuntu64.tar.gz ~/bioinf
+  284  cd bioinf
+  285  ls
+  286  tar zvxf sratoolkit.2.10.5-ubuntu64.tar.gz
+  287  sratoolkit.2.9.2-ubuntu64/bin/fastq-dump -h
+  288  ls
+  289  ~/bioinf/sratoolkit.2.10.5-ubuntu64/bin/fastq-dump
+  290  rm sratoolkit.2.10.5-ubuntu64
+  291  rm -rf sratoolkit.2.10.5-ubuntu64
+  292  rm sratoolkit.2.10.5-ubuntu64.tar.gz
+  293  ls
+  294  wget sratoolkit.tar.gz http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+  295  wget sratoolkit.tar.gz ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+  296  ls
+  297  tar -vxzf sratoolkit.current-ubuntu64.tar.gz
+  298  ll
+  299  rm -rf sratoolkit.current-ubuntu64.tar.gz
+  300  rm -rf sratoolkit.2.10.5-ubuntu64
+  301  ls
+  302  mv sratoolkit.current-ubuntu64.tar.gz.1 sratoolkit.current-ubuntu64.tar.gz
+  303  tar -vxzf sratoolkit.current-ubuntu64.tar.gz
+  304  ls
+  305  export PATH=$PATH:$PWD/sratoolkit.2.10.5-ubuntu64/bin
+  306  which fastq-dump
+  307  vdb-config -i
+  308  cd bioinf
+  309  mkdir ncbi
+  310  ls
+  311  which fastq-dump
+  312  fastq-dump --stdout SRR390728 | head -n 8
+  313  /sratoolkit.2.9.2-ubuntu64/bin/fastq-dump -h
+  314  ls
+  315  ~/bioinf/sratoolkit.2.10.5-ubuntu64/bin/fastq-dump -h
+  316  vdb-config -i
+  317  fastq-dump --stdout SRR390728 | head -n 8
+  318  fastq-dump
+  319  prefetch
+  320  ./fastq-dump -X 5 -Z SRR390728
+  321  cd sratoolkit.2.10.5-ubuntu64/bin
+  322  ./fastq-dump -X 5 -Z SRR390728
+  323  prefetch SRR390728
+  324  vdb-config -i
+  325  cd ncbi
+  326  ls
+  327  cd 
+  328  cd bioinf
+  329  ls
+  330  cd ncbi
+  331  ls
+  332  cd sra
+  333  ls
+  334  less SRR390728.sra.cache
+  335  cd
+  336  ls
+  337  tar zxvf ibm-aspera-connect-3.9.9.177872-linux-g2.12-64.tar.gz
+  338  bash ibm-aspera-connect-3.9.9.177872-linux-g2.12-64.sh
+  339  cd bioinf
+  340  ls
+  341  cd
+  342  ls
+  343  cd project
+  344  ls
+  345  cd airway
+  346  ls
+  347  less id
+  348  touch srr
+  349  vim srr
+  350  mv srr ~/
+  351  ls
+  352  cd
+  353  ls
+  354  prefetch -t ascp -a "/home/hanchochang/.aspera/connect/bin/ascp|/home/hanchochang/.aspera/connect/etc/asperaweb_id_dsa.openssh" --option-file srr.txt -O /home/hanchochang/bioinf/ncbi
+  355  prefetch
+  356  echo 'export PATH=$PATH:~/.aspera/connect/bin' >> ~/.bash_profile
+  357  source ~/.bash_profile
+  358  prefetch SRR8956151
+  359  ascp
+  360  ascp -T -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh -k 1 -T -l200m anonftp@ftp-private.ncbi.nlm.nih.gov:/sra/sra-instant/reads/ByRun/sra/SRR/SRR526/SRR5266611/SRR5266611.sra
+  361  ascp -QT -l 300m -P33001 -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/fastq/SRR621/003/SRR6213653/SRR6213653_1.fastq.gz ./
+  362  ls -a
+  363  echo 'export PATH=~/.aspera/connect/bin:$PATH' >> ~/.bashrc
+  364  source ~/.bashrc
+  365  cp ~/.aspera/connect/etc/asperaweb_id_dsa.openssh ~/
+  366  cd .
+  367  ascp -v -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh -k 1 -T -l200m anonftp@ftp-private.ncbi.nlm.nih.gov:/sra/sra instant/reads/ByRun/sra/SRR/SRR949/SRR949627/SRR949627.sra .
+  368  ascp
+  369  vim .bashrc
+  370  vim .bash_profile
+  371  . .bash_profile
+  372  ascp
+  373  ascp --help
+  374  vim .bashrc
+  375  source ~/.bashrc
+  376  clear
+  377  ascp
+  378  vim .bashrc
+  379  vi ~/.bashrc
+  380  . .bashrc
+  381  ascp --help
+  382  echo 'export PATH=~/.aspera/connect/bin:$PATH' >> ~/.bashrc
+  383  source ~/.bashrc
+  384  ascp --help
+  385  less .bashrc
+  386  sudo vi .bashrc
+  387  ascp
+  388  cd /home/hanchochang/.aspera/connect/bin
+  389  .ascp --help
+  390  ls
+  391  ascp --help
+  392  ./ascp --help
+  393  cd 
+  394  ascp -v -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh -k 1 -T -l200m anonftp@ftp-private.ncbi.nlm.nih.gov:/sra/sra instant/reads/ByRun/sra/SRR/SRR949/SRR949627/SRR949627.sra .
+  395  ./ascp -v -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh -k 1 -T -l200m anonftp@ftp-private.ncbi.nlm.nih.gov:/sra/sra instant/reads/ByRun/sra/SRR/SRR949/SRR949627/SRR949627.sra .
+  396  vim .bashrc
+  397  vim .bash_profile
+  398  ascp --help
+  399  ls -a
+  400  ascp -QT -l 300m -P33001 -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/fastq/SRR621/003/SRR6213653/SRR6213653_1.fastq.gz ./
+  401  rm asperaweb_id_dsa.openssh
+  402  ascp --help
+  403  cd /home/hanchochang/.aspera/connect/bin
+  404  ./ascp
+  405  source .bash_profile
+  406  cd
+  407  source .bash_profile
+  408  ascp
+  409  ascp -v -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh -k 1 -T -l200m anonftp@ftp-private.ncbi.nlm.nih.gov:/sra/sra instant/reads/ByRun/sra/SRR/SRR949/SRR949627/SRR949627.sra .
+  410  prefetch SRR5398807
+  411  ascp -QT -l 300m -P33001 -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/fastq/SRR949/SRR949627/SRR949627_1.fastq.gz .
+  412  vim .bashrc
+  413  vim .bash_profile
+  414  source .bash_profile
+  415  prefetch SRR5398807
+  416  cd bioinf
+  417  ls
+  418  cd sratoolkit.2.10.5-ubuntu64
+  419  ls
+  420  cd
+  421  vim .bash_profile
+  422  source .bash_profile
+  423  prefetch SRR5398807
+  424  ascp -T -l 200M -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh \\n  --host=ftp-private.ncbi.nlm.nih.gov --user=anonftp --mode=recv \\n  /sra/sra-instant/reads/ByRun/sra/ERR/ERR105/ERR105009/ERR105009.sra ./
+  425  ascp -T -l 200M -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh \\n  anonftp@ftp-private.ncbi.nlm.nih.gov:/sra/sra-instant/reads/ByRun/sra/ERR/ERR105/ERR105009/ERR105009.sra ./
+  426  ascp -T -l 200M -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh \\n  --host=fasp.sra.ebi.ac.uk --user=era-fasp --mode=recv \\n  /vol1/fastq/ERR105/ERR105009/ERR105009_1.fastq.gz ./
+  427  prefetch --help
+  428  sudo ufw status
+  429  sudo ufw disable
+  430  ascp -T -l 200M -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh \\n  --host=fasp.sra.ebi.ac.uk --user=era-fasp --mode=recv \\n  /vol1/fastq/ERR105/ERR105009/ERR105009_1.fastq.gz ./
+  431  sudo ufw enable
+  432  sudo iptables -I INPUT -p tcp --dport 33001 -j ACCEPT
+  433  sudo iptables -I OUTPUT -p tcp --dport 33001 -j ACCEPT
+  434  ascp -T -l 200M -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh \\n  --host=fasp.sra.ebi.ac.uk --user=era-fasp --mode=recv \\n  /vol1/fastq/ERR105/ERR105009/ERR105009_1.fastq.gz ./
+  435  ascp -QT -l 300m -P33001 -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/fastq/SRR949/SRR949627/SRR949627_1.fastq.gz .\n
+  436  ascp --help
+  437  less .bash_profile
+  438  ascp --help
+  439  echo 'export PATH=~/.aspera/connect/bin:$PATH' >> ~/.bashrc
+  440  ascp --help
+  441  cd /home/hanchochang/.aspera/connect/bin
+  442  ./ascp --help
+  443  cd
+  444  ascp --help
+  445  prefetch --help
+  446  exec /bin/zsh
+  447  ascp --help
+  448  vim .zshrc
+  449  open .zshrc
+  450  vim .zshrc
+  451  source .zshrc
+  452  ascp --help
+  453  prefetch --help
+  454  fastq-dump --help
+  455  ascp -v -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh -k 1 -T -l200m anonftp@ftp-private.ncbi.nlm.nih.gov:/sra/sra instant/reads/ByRun/sra/SRR/SRR949/SRR949627/SRR949627.sra .
+  456  ascp -QT -l 300m -P33001 -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/fastq/SRR949/SRR949627/SRR949627_1.fastq.gz .
+  457  cd project
+  458  ls
+  459  cd airway
+  460  ls
+  461  for ((i=56;i<=62;i++));do ascp -QT -v -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh -k 1 -T -l200m anonftp@ftp-private.ncbi.nlm.nih.gov:/sra/sra-instant/reads/ByRun/sra/SRR/SRR358/SRR35899${i}/SRR35899${i}.sra .;done
+  462  iptables -I INPUT -p tcp --dport 33001 -j ACCEPT
+  463  root
+  464  sudo iptables -I INPUT -p tcp --dport 33001 -j ACCEPT
+  465  sudo iptables -I OUTPUT -p tcp --dport 33001 -j ACCEPT
+  466  for ((i=56;i<=62;i++));do ascp -QT -v -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh -k 1 -T -l200m anonftp@ftp-private.ncbi.nlm.nih.gov:/sra/sra-instant/reads/ByRun/sra/SRR/SRR358/SRR35899${i}/SRR35899${i}.sra .;done
+  467  prefetch SRR1553610
+  468  for ((i=56;i<=62;i++));do wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP075/SRP075747/SRR35899$i/SRR35899$i.sra ;done
+  469  for ((i=56;i<=62;i++));do wget -c ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP075/SRP075747/SRR35899$i/SRR35899$i.sra ;done
+  470  for ((i=56;i<=62;i++));do wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP075/SRP075747/SRR35899$i/SRR35899$i.sra ;done
+  471  wget ftp://ftp.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR350/SRR3503149/SRR3503149.sra
+  472  ascp -v -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh -k 1 -T -l200m anonftp@ftp-private.ncbi.nlm.nih.gov:/sra/sra instant/reads/ByRun/sra/SRR/SRR949/SRR949627/SRR949627.sra .
+  473  prefetch SRR3589956
+  474  fasterq-dump SRR5368359
+  475  ll
+  476  cd
+  477  ll
+  478  cd bioinf
+  479  ll
+  480  cd ncbi
+  481  ll
+  482  cd
+  483  source ~/miniconda3/bin/activate
+  484  source activate rna
+  485  sratools
+  486  wget http://genomedata.org/rnaseq-tutorial/annotations/GRCh38/chr22_with_ERCC92.gtf
+  487  do-release-update
+  488  apt-get dist-upgrade
+  489  update
+  490  sudo apt-get update
+  491  sudo apt-get install update-manager-core
+  492  sudo do-release-upgrade
+  493  sudo update-manager –d
+  494  cat /etc/issue
+  495  ls
+  496  ps
+  497  ll
+  498  sudo apt-get update
+  499  sudo apt-get install \\n    apt-transport-https \\n    ca-certificates \\n    curl \\n    gnupg \\n    lsb-release
+  500  curl -L -fsSL https://get.docker.com -o get-docker.sh
+  501  sudo sh get-docker.sh
+  502  sudo killall apt apt-get
+  503  sudo sh get-docker.sh
+  504  sudo rm /var/lib/apt/lists/lock\nsudo rm /var/cache/apt/archives/lock\nsudo rm /var/lib/dpkg/lock*
+  505  sudo dpkg --configure -a
+  506  sudo apt update
+  507  sudo apt-get install \\n    apt-transport-https \\n    ca-certificates \\n    curl \\n    gnupg \\n    lsb-release
+  508  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  509  echo \\n  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \\n  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  510  sudo apt-get update
+  511  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  512  sudo docker run hello-world
+  513  docker-compose -v
+  514  docker -v
+  515  ll
+  516  docker info
+  517  docker ps
+  518  sudo docker info
+  519  sudo docker ps
+  520  sudo docker version
+  521  docker run hello-world
+  522  sudo groupadd docker
+  523  sudo usermod -aG docker $USER
+  524  newgrp docker
+  525  docker run hello-world
+  526  docker ps
+  527  docker load -i ~/Desktop/bioinfo_PartI-PartII-PartIII1-3.tar.gz
+  528  ls
+  529  exit
+  530  ls als
+  531  ls -als
+  532  ll
+  533  whoami
+  534  cd .
+  535  pwd
+  536  cd ..
+  537  pwd
+  538  ll
+  539  history
+  540  docker images
+  541  sudo docker images
+  542  docker info
+  543  sudo docker info
+  544  docker pull bschiffthaler/ngs
+  545  sudo docker pull bschiffthaler/ngs
+  546  sudo docker images
+  547  sudo docker run --rm -v $(pwd):/data bschiffthaler/ngs fastqc /data/202_subset_1.fq.gz~
+  548  docker run --rm -v $(pwd):/data bschiffthaler/ngs fastqc /data/202_subset_1.fq.gz~
+  549  sudo docker run --rm -v $(pwd):/data bschiffthaler/ngs zcat /data/my_sample.fq.gz | head
+  550  ll
+  551  sudo docker run --name=codename -p 8787:80 -ti bschiffthaler/ngs:latest su -l training
+  552  sudo docker ps
+  553  sudo docker images
+  554  sudo docker run --rm -v $(pwd):/data bschiffthaler/ngs zcat /data/my_sample.fq.gz | head
+  555  sudo docker ps
+  556  sudo docker images
+  557  sudo docker rmi 3abe24d14bfa
+  558  sudo docker stop
+  559  sudo docker rmi 3abe24d14bfa
+  560  sudo docker ps -as
+  561  sudo docker rmi 17ed0c2e20cf
+  562  sudo docker container ls -a
+  563  sudo docker image ls
+  564  docker container rm 17ed0c2e20cf
+  565  sudo docker container rm 17ed0c2e20cf
+  566  sudo docker image rm 3abe24d14bfa
+  567  top
+  568  docker run hello-world
+  569  ls
+  570  ls -F
+  571  ls -l
+  572  man ls
+  573  ls
+  574  cd bioinf
+  575  ls
+  576  cd reference
+  577  ls
+  578  cd
+  579  ll
+  580  pwd q
+  581  pwck
+  582  pwconv
+  583  pwd
+  584  PWD
+  585  pwdx
+  586  pwunconv
+  587  clear
+  588  ll
+  589  cd Public
+  590  ll
+  591  pwd
+  592  ls
+  593  mkdir tmp
+  594  ls -F
+  595  ls tmp
+  596  ls -a tmp
+  597  cd tmp
+  598  nano junk
+  599  ls
+  600  ls -s
+  601  ls -s -h
+  602  cd ..
+  603  mv tmp/junk tmp/qotes.txt
+  604  ls tmp
+  605  mv tmp/qotes.txt .
+  606  ls
+  607  ls qotes.txt
+  608  cp qotes.txt tmp/qutoations.txt
+  609  rm qotes.txt
+  610  ls qotes.txt tmp/qutoations.txt
+  611  cp tmp/qutoations.txt .
+  612  ll
+  613  rm qutoations.txt
+  614  rmdir tmp
+  615  rm tmp/qutoations.txt
+  616  rmdir tmp
+  617  ll
+  618  conda list
+  619  ll
+  620  vim ~/.zshrc
+  621  source ~/.zshrc
+  622  conda list
+  623  nano ~/.zshrc
+  624  ll miniconda3
+  625  cd .
+  626  nano .profile
+  627  nano .bashrc
+  628  nano .bash_profile
+  629  source ~/.zshrc
+  630  conda list
+  631  conda info
+  632  nano .bashrc
+  633  conda search fastqc
+  634  pwd
+  635  cd /home/
+  636  ll
+  637  mkdir tutorial/
+  638  cd .
+  639  cd ~
+  640  ll
+  641  mkdir tutorial/
+  642  cd tutorial
+  643  docker run -v $PWD:/workspace/ --name bioinfo -it scienceparkstudygroup/master-gls:fastq-latest
+  644  docker start -a -i bioinfo
+  645  docker info
+  646  docker images
+  647  df -h
+  648  cd ~
+  649  df -h
+  650  echo "hello world"
+  651  ls *.pdb
+  652  docker ps
+  653  ls
+  654  ls ..
+  655  ls .
+  656  cd ..
+  657  ls
+  658  ls -F
+  659  cd ~
+  660  ls
+  661  ls -F
+  662  ls bin
+  663  ls /bin
+  664  ls home
+  665  ls /
+  666  ls /home
+  667  tree
+  668  pwd
+  669  cd ..
+  670  cd ~
+  671  sudo apt install tree
+  672  tree
+  673  clear
+  674  tree hanchochang
+  675  tree /home/hanchochang
+  676  ll
+  677  cd /home
+  678  tree
+  679  ls /
+  680  which sqlite3
+  681  ll
+  682  cd ~
+  683  ll
+  684  ls
+  685  cat get-docker.sh
+  686  touch newfile
+  687  ll
+  688  rm newfile
+  689  ll
+  690  echo "Hello World" > testfile
+  691  cat testfile
+  692  cat testfile > newfile
+  693  ll
+  694  ls
+  695  cat newfile
+  696  echo "Goodbye World" > newfile
+  697  cat newfile
+  698  cat testfile >> newfile
+  699  cat newfile
+  700  ll
+  701  less get-docker.sh
+  702  ls
+  703  ll
+  704  mkdir share
+  705  ll
+  706  mv newfile testfile share
+  707  ls
+  708  ls share
+  709  mv share/*file .
+  710  ls
+  711  mv *file share/
+  712  ls
+  713  cd share
+  714  ls
+  715  cd .
+  716  cat testfile
+  717  echo "hello world" > testfile
+  718  cat testfile
+  719  cat testfile >> newfile
+  720  less newfile
+  721  nano newfile
+  722  less mewfile
+  723  ll
+  724  less newfile
+  725  nano newfile
+  726  less newfile
+  727  nano nanofile
+  728  less nanofile
+  729  nano
+  730  ll
+  731  cat canhzfile
+  732  wget www.uniprot.org/uniprot/Q9BYF1.txt
+  733  ll
+  734  rm Q9BYF1.txt
+  735  cat Q9BYF1.txt.1
+  736  less Q9BYF1.txt.1
+  737  wget www.uniprot.org/uniprot/Q9BYF1.fasta
+  738  ll
+  739  less Q9BYF1.fasta
+  740  ls ../../
+  741  cd ..
+  742  pwd
+  743  cd ../../
+  744  pwd
+  745  ll
+  746  cd ~
+  747  ls -a
+  748  cd share
+  749  ls
+  750  ls -l -h
+  751  ls -lh
+  752  head -n 10 Q9BYF1.txt.1
+  753  head -n 5 Q9BYF1.fasta
+  754  head -n 10 Q9BYF1.txt.1 > tempfile
+  755  tail -n 5 tempfile
+  756  head -n 10 Q9BYF1.txt.1 | tail -n 5
+  757  man ls
+  758  man conda
+  759  cd ~
+  760  conda
+  761  cd share
+  762  ls -1
+  763  ls --color
+  764  history
+  765  ls --color
+  766  history
+  767  ls -1
+  768  ls -G
+  769  ls -g
+  770  ls -color
+  771  ls /etc
+  772  ls /etc/python
+  773  ls /etc/python3
+  774  mkdir week1
+  775  ls
+  776  mv *file week1
+  777  ls
+  778  mv Q9BYF1.txt.1 Q9BYF1.txt
+  779  ls
+  780  ls week1
+  781  ls
+  782  mv Q9BYF1.* week1
+  783  ls
+  784  ls week1
+  785  history
+  786  mkdir week2
+  787  cd week2
+  788  wget http://bsu-srv.newcastle.ac.uk/share/ecample.csv
+  789  ls
+  790  wget http://bsu-srv.newcastle.ac.uk/share/example.csv
+  791  ls
+  792  more example.csv
+  793  rm ecample.csv
+  794  head example.csv
+  795  ls -l -h
+  796  wc example.csv
+  797  man wc
+  798  wc -l example.csv
+  799  wc -l ../week1/Q9BYF1.txt
+  800  history
+  801  head example.csv
+  802  column -t -s ',' example.csv
+  803  column -t -s ',' example.csv | less
+  804  man cut
+  805  cut -d "," -f 1,6 example.csv
+  806  cut -d "," -f 1,8 example.csv
+  807  cut -d "," -f 1,8 example.csv | less
+  808  cut -d "," -f 1,8 example.csv | column -t -s ","
+  809  cut -d "," -f 1,8 example.csv | column -t -s "," | less
+  810  cut -d "," -f 1,8 example.csv > id
+  811  cut -d "," -f 1,8 example.csv > id_symbol.csv
+  812  ll
+  813  rm id
+  814  ll
+  815  ls
+  816  less id_symbol.csv
+  817  history
+  818  sort example.csv
+  819  man sort
+  820  sort -t ',' -k 3 example.csv | less
+  821  sort -g -t ',' -k 3 example.csv | less
+  822  head -n 1 example.csv
+  823  head -n 1 example.csv > sort.csv
+  824  man tail
+  825  tail -n +2 example.csv | sort -g -t ',' -k 7
+  826  tail -n +2 example.csv | sort -g -t ',' -k 7 | less
+  827  tail -n +2 example.csv | sort -g -t ',' -k 7 >> sort.csv
+  828  mv sort.csv sorted.csv
+  829  ll
+  830  less sorted.csv
+  831  tail sorted.csv
+  832  ls
+  833  cd share/week2
+  834  ls
+  835  cat id_symbol.csv
+  836  tail -n +2 example.csv | sort -g -t ',' -k 7 | less
+  837  grep ENSG00000000003 example.csv
+  838  grep ENSG0000000000* example.csv
+  839  grep --color  ENSG00000000003 example.csv
+  840  grep ENSG0000000000 example.csv
+  841  grep ENSG000000000 example.csv
+  842  grep ENSG00000000 example.csv
+  843  history
+  844  man gerp
+  845  man grep
+  846  grep -c ENSG00000000 example.csv
+  847  grep 'ENSG00000000' example.csv
+  848  grep '^ENSG00000000' example.csv
+  849  cd ..
+  850  cd week1
+  851  ls
+  852  grep ID Q9BYF1.txt
+  853  grep 'ID' Q9BYF1.txt
+  854  grep '^ID' Q9BYF1.txt
+  855  grep -c '<' Q9BYF1.fasta
+  856  grep -c '>' Q9BYF1.fasta
+  857  grep -c > Q9BYF1.fasta
+  858  cat Q9BYF1.fasta
+  859  less Q9BYF1.fasta
+  860  cd ..
+  861  cd week2
+  862  ls
+  863  grep -n '^ENSG00000000' example.csv
+  864  less example.csv
+  865  grep -A 1 -B 1 '^ENSG00000000' example.csv
+  866  grep -i '^ENSG00000000' example.csv
+  867  grep 'ENSG' example.csv | head
+  868  man grep
+  869  grep -i 'ENSG' example.csv | head
+  870  grep 'SEPT' example.csv
+  871  grep -P 'SEPT\d' example.csv
+  872  grep -P 'SEPT\d+' example.csv
+  873  grep -P 'SEPT\d+$' example.csv
+  874  ls
+  875  pwd
+  876  head example.csv
+  877  head id_symbol.csv
+  878  head sorted.csv
+  879  grep -P 'STEP\d+$' example.csv
+  880  grep -P 'SEPT\d+$' example.csv
+  881  grep -c -P 'SEPT\d+$' example.csv
+  882  grep -w -P 'SEPT\d+$' example.csv
+  883  man grep
+  884  grep -P 'SEPT\d+$' example.csv
+  885  grep -w -P 'SEPT\d+$' example.csv
+  886  man grep
+  887  man grep | less
+  888  man grep
+  889  grep -w 'SEPT' example.csv
+  890  grep -w 'ENSG' example.csv
+  891  grep -w SEPT example.csv
+  892  cd ../week1
+  893  ls
+  894  grep -i tax Q9BYF1.txt
+  895  grep -i 'tax' Q9BYF1.txt
+  896  grep '^OX' Q9BYF1.
+  897  grep '^OX' Q9BYF1.txt
+  898  grep -P '^OX/tNCBI' Q9BYF1.txt
+  899  grep -P '^OX\tNCBI' Q9BYF1.txt
+  900  grep -P '^OX\s+NCBI' Q9BYF1.txt
+  901  grep -P '^OX\s+NCBI_TaxID=' Q9BYF1.txt
+  902  grep -P '^OX\s+NCBI_TaxID=\d*' Q9BYF1.txt
+  903  grep -P '^OX\s+NCBI_TaxID=\d*' Q9BYF1.txt | grep -P -o '\d+'
+  904  history
+  905  grep '^RX' Q9BYF1.txt
+  906  grep -P '^RX\s+' Q9BYF1.txt
+  907  grep '^RX\s+' Q9BYF1.txt
+  908  grep -p '^RX\s+' Q9BYF1.txt
+  909  grep --help
+  910  grep -p '^RX\s+Pubmed' Q9BYF1.txt
+  911  grep -P '^RX\s+Pubmed' Q9BYF1.txt
+  912  grep -P '^RX\s+PubMed=' Q9BYF1.txt
+  913  grep -P '^RX\s+PubMed=\d+' Q9BYF1.txt
+  914  grep -P '^PubMed=\d+' Q9BYF1.txt
+  915  grep -P 'PubMed=\d+' Q9BYF1.txt
+  916  grep 'PubMed=[:digital:]' Q9BYF1.txt
+  917  grep 'PubMed=[[:digital:]]' Q9BYF1.txt
+  918  grep 'PubMed=[[:digit:]]' Q9BYF1.txt
+  919  grep 'PubMed=[[:digit:]]\+' Q9BYF1.txt
+  920  grep 'PubMed=[[:digit:]]+' Q9BYF1.txt
+  921  grep 'PubMed=[[:digit:]]\+' Q9BYF1.txt
+  922  grep -P 'PubMed=\d+' Q9BYF1.txt
+  923  grep -P -o 'PubMed=\d+' Q9BYF1.txt
+  924  grep -P -o 'PubMed=\d+' Q9BYF1.txt | grep -P '\d+'
+  925  grep -P -o 'PubMed=\d+' Q9BYF1.txt | grep -P -o '\d+'
+  926  htop
+  927  itop
+  928  top
+  929  pwd
+  930  cd share/week1
+  931  grep '^RX' Q9BYF1.txt
+  932  grep -P -o 'Pubmed=\d+' Q9BYF1.txt
+  933  grep -P -o 'PubMed=\d+' Q9BYF1.txt
+  934  grep -P -o 'PubMed=\d+' Q9BYF1.txt | grep -P -o '\d+'
+  935  grep -P -o 'PubMed=\d+' Q9BYF1.txt | grep -P -o '\d+' \\n| sed 's/^/https:\/\/www.ncbi.nlm.nih.gov\/pubmed\//'
+  936  cd ../week2
+  937  pwd
+  938  ls
+  939  nano test.sh
+  940  ls /bin/
+  941  history
+  942  ls usr/bin/
+  943  ls /usr/bin
+  944  ls
+  945  nano test.sh
+  946  cat test.sh
+  947  ls -l -h
+  948  woami
+  949  whoami
+  950  groups
+  951  usr
+  952  uses
+  953  usrs
+  954  cd
+  955  nano test2.sh
+  956  ls
+  957  ls -l
+  958  ll
+  959  chmod u+x test2.sh
+  960  ll
+  961  bash test2.sh
+  962  chmod g-w
+  963  chmod g-w test2.sh
+  964  ll
+  965  ll test2.sh
+  966  /home/hanchochang/test2.sh
+  967  test2.sh
+  968  ./test2.sh
+  969  cd share/week2/
+  970  ls
+  971  pwd
+  972  ll
+  973  chmod u+x test.sh
+  974  ll
+  975  chmod g+x test.sh
+  976  ll
+  977  chmod g+w test.sh
+  978  ll
+  979  ./test.sh
+  980  ll
+  981  ls
+  982  pwd
+  983  cat test.sh
+  984  ./test.sh
+  985  nano test_variables.sh
+  986  cat test_variables.sh
+  987  ll
+  988  chmod g+x test_variables.sh
+  989  ll
+  990  ./test_variables.sh
+  991  chmod u+x test_variables.sh
+  992  ll
+  993  ./test_variables.sh
+  994  chmod g+w test_variables.sh
+  995  ll
+  996  ./test_variables.sh
+  997  nano test_variables.sh
+  998  ll
+  999  ./test_variables.sh
+ 1000  nano test_variables.sh
+ 1001  ll
+ 1002  ./test_variables.sh
+ 1003  history
+ 1004  which bash
+ 1005  nano test_variables.sh
+ 1006  ./test_variables.sh
+ 1007  cat test_variables.sh
+ 1008  ls
+ 1009  echo $HOME
+ 1010  echo $(HOME)
+ 1011  echo $PWD
+ 1012  echo $PATH
+ 1013  ls /home/hanchochang/miniconda3/bin~
+ 1014  ls /home/hanchochang/miniconda3/bin
+ 1015  history
+ 1016  clear
+ 1017  which ls
+ 1018  which conda
+ 1019  which ls
+ 1020  which lx
+ 1021  lx
+ 1022  which ls --color=tty
+ 1023  ls
+ 1024  test_variables.sh
+ 1025  echo $PATH
+ 1026  pwd
+ 1027  path
+ 1028  PATH
+ 1029  PATH=$PWD:$PATH
+ 1030  echo $PATH
+ 1031  test_variables.sh
+ 1032  exit
+ 1033  echo $PATH
+ 1034  printenv
+ 1035  echo $USER
+ 1036  pwd
+ 1037  cd share/week2
+ 1038  ls
+ 1039  cp test_variables.sh test_arguments.sh
+ 1040  ls
+ 1041  nano test_arguments.sh
+ 1042  ll
+ 1043  ./test_arguments.sh
+ 1044  ./test_arguments.sh argu1
+ 1045  ./test_arguments.sh argu1 argu2
+ 1046  ./test_arguments.sh ketty
+ 1047  nano test_arguments.sh
+ 1048  cat test_arguments.sh
+ 1049  ./test_arguments.sh
+ 1050  ./test_arguments.sh 'disco chick' 5
+ 1051  ./test_arguments.sh 'disco chick' 10
+ 1052  exit
+ 1053  pwd
+ 1054  cd share
+ 1055  mkdir week3
+ 1056  ls
+ 1057  cd week2
+ 1058  cp test_arguments.sh ~/share/week3/test-loops.sh
+ 1059  cd ../week3
+ 1060  ls
+ 1061  history
+ 1062  nano test-loops.sh
+ 1063  ll
+ 1064  groups
+ 1065  USER
+ 1066  $USER
+ 1067  ./test-loops.sh
+ 1068  nanp unirot_ids.txt
+ 1069  nano uniprot_ids.txt
+ 1070  ll
+ 1071  cp test-loops.sh get_uniprot_data.sh
+ 1072  ll
+ 1073  nano get_uniprot_data.sh
+ 1074  ./get_uniprot_data.sh
+ 1075  nano get_uniprot_data.sh
+ 1076  ./get_uniprot_data.sh
+ 1077  nano get_uniprot_data.sh
+ 1078  ./get_uniprot_data.sh
+ 1079  nano get_uniprot_data.sh
+ 1080  ./get_uniprot_data.sh
+ 1081  nano get_uniprot_data.sh
+ 1082  ./get_uniprot_data.sh
+ 1083  nano get_uniprot_data.sh
+ 1084  ./get_uniprot_data.sh
+ 1085  nano get_uniprot_data.sh
+ 1086  ./get_uniprot_data.sh
+ 1087  cat uniprot_ids.txt
+ 1088  nano get_uniprot_data.sh
+ 1089  ll
+ 1090  ./get_uniprot_data.sh
+ 1091  nano get_uniprot_data.sh
+ 1092  ./get_uniprot_data.sh
+ 1093  nano get_uniprot_data.sh
+ 1094  ll
+ 1095  ./get_uniprot_data.sh
+ 1096  ls
+ 1097  rm *.fasta.1
+ 1098  ls
+ 1099  ./get_uniprot_data.sh
+ 1100  ls -l *.fasta | wc -l
+ 1101  ls -l *.fasta
+ 1102  nano test-loops.sh
+ 1103  ./test-loops.sh
+ 1104  cat uniprot_ids.txt
+ 1105  ./get_uniprot_data.sh
+ 1106  cat get_uniprot_data.sh
+ 1107  cat uniprot_ids.txt
+ 1108  $(cat uniprot_ids.txt)
+ 1109  V=$(cat uniprot_ids.txt)
+ 1110  $V
+ 1111  echo $V
+ 1112  V='$(cat uniprot_ids.txt)'
+ 1113  echo $V
+ 1114  V="$(cat uniprot_ids.txt)"
+ 1115  echo $V
+ 1116  date
+ 1117  echo `date`
+ 1118  V=cat uniprot_ids.txt
+ 1119  V="cat uniprot_ids.txt"
+ 1120  echo $V
+ 1121  tree
+ 1122  cd ..
+ 1123  tree
+ 1124  cd
+ 1125  ls
+ 1126  conda
+ 1127  cd share/week3
+ 1128  conda
+ 1129  conda activate
+ 1130  cd
+ 1131  conda
+ 1132  conda -n msa python
+ 1133  conda activate
+ 1134  conda activate base
+ 1135  conda init
+ 1136  conda create -n msa
+ 1137  conda
+ 1138  conda create -n msa python
+ 1139  source .bashrc
+ 1140  which conda
+ 1141  conda
+ 1142  ls
+ 1143  source deactivate
+ 1144  conda deactivate
+ 1145  conda env list
+ 1146  conda active base
+ 1147  conda activate base
+ 1148  which conda
+ 1149  source activate base
+ 1150  ls
+ 1151  source deactivate base
+ 1152  conda activate rna
+ 1153  conda deactivate rna
+ 1154  conda deactivate
+ 1155  conda create -n msa
+ 1156  conda activate msa
+ 1157  conda deactivate
+ 1158  conda env list
+ 1159  ls -lR
+ 1160  ps -u
+ 1161  w
+ 1162  last
+ 1163  exit
+ 1164  conda --help
+ 1165  conda list
+ 1166  conda info
+ 1167  conda activate base
+ 1168  conda activate msa
+ 1169  source activate base
+ 1170  conda deactivate
+ 1171  history
+ 1172  clrar
+ 1173  clear
+ 1174  source activate base
+ 1175  conda activate msa
+ 1176  conda list
+ 1177  conda info
+ 1178  pwd
+ 1179  cd share/week3
+ 1180  ls
+ 1181  ls *.fasta
+ 1182  rm *.fasta
+ 1183  ls *.fasta
+ 1184  conda install muscle
+ 1185  conda list
+ 1186  muscle
+ 1187  nano get_uniprot_data.sh
+ 1188  ls -lh
+ 1189  nano uniprot_ids.txt
+ 1190  ./get_uniprot_data.sh
+ 1191  ls
+ 1192  less muscle_input.fasta
+ 1193  ls -lh
+ 1194  grep '^>' muscle_input.fasta
+ 1195  grep -c '^>' muscle_input.fasta
+ 1196  cat uniprot_ids.txt
+ 1197  cw -l uniprot_ids.txt
+ 1198  wc -l uniprot_ids.txt
+ 1199  tail muscle_input.fasta
+ 1200  nano get_uniprot_data.sh
+ 1201  ls
+ 1202  ls -lh
+ 1203  mv muscle_input.fasta ~
+ 1204  ls
+ 1205  rm *.fasta
+ 1206  ls
+ 1207  nano get_uniprot_data.sh
+ 1208  cat get_uniprot_data.sh
+ 1209  ./get_uniprot_data.sh
+ 1210  ls
+ 1211  less muscle_output.clw
+ 1212  ls
+ 1213  cat uniprot_ids.txt
+ 1214  conda activate
+ 1215  conda activate msa
+ 1216  conda deactivate
+ 1217  ls
+ 1218  conda deactivate
+ 1219  which conda
+ 1220  conda info
+ 1221  conda activate
+ 1222  conda activate msa
+ 1223  ls
+ 1224  nano uniprot_ids.txt
+ 1225  ls
+ 1226  conda jalview
+ 1227  conda install jalview
+ 1228  exit
+ 1229  history
+ 1230  cd share/week3
+ 1231  ls
+ 1232  rm *.fasta
+ 1233  ls
+ 1234  conda activate
+ 1235  conda activate base
+ 1236  cd
+ 1237  conda activate
+ 1238  conda config --show-sources
+ 1239  ./my-script.sh
+ 1240  echo "conda activate" >> ~/.bash_profile
+ 1241  exit
+ 1242  conda activate
+ 1243  conda info | grep -i 'base environment'
+ 1244  nano ~/.bash_profile
+ 1245  source /home/hanchochang/miniconda3/etc/profile.d/conda.sh
+ 1246  conda activate
+ 1247  conda deactivate
+ 1248  conda activate
+ 1249  conda deactivate
+ 1250  conda activate
+ 1251  source activate
+ 1252  conda deactivate
+ 1253  sudo shutdown -r now
+ 1254  pwd
+ 1255  ls
+ 1256  history
+ 1257  conda create -n rna-seq
+ 1258  source activate base
+ 1259  conda create -n rna-seq
+ 1260  conda activate rna-seq
+ 1261  conda install sra-tools
+ 1262  fastq-dump
+ 1263  fastq-dump --help
+ 1264  cd share
+ 1265  mkdir week4
+ 1266  ls
+ 1267  cd week4/
+ 1268  ls
+ 1269  conda -info
+ 1270  conda config --show
+ 1271  clear
+ 1272  fastq-dump --gzip --defline-qual '+' SRR11412215
+ 1273  cd share/week4
+ 1274  ls
+ 1275  ll
+ 1276  source activate
+ 1277  conda activate rna-seq
+ 1278  prefetch SRR11412215
+ 1279  cd share/week4
+ 1280  ls
+ 1281  ll
+ 1282  ls
+ 1283  cd ../week3
+ 1284  ls
+ 1285  cd
+ 1286  ls
+ 1287  mv muscle_input.fasta share/week3/
+ 1288  cd share/week3
+ 1289  ls
+ 1290  gzip muscle_input.fasta
+ 1291  ls
+ 1292  ls ../week4/
+ 1293  ls
+ 1294  ll
+ 1295  rm ibm-aspera-connect-3.9.9.177872-linux-g2.12-64.sh
+ 1296  rm ibm-aspera-connect-3.9.9.177872-linux-g2.12-64.tar.gz
+ 1297  ls
+ 1298  zless SRR949627_1.fastq.gz.partial
+ 1299  cd share/week4
+ 1300  ls
+ 1301  fasterq-dump --gzip --defline-qual '+' SRR11412215
+ 1302  fasterq-dump
+ 1303  cd
+ 1304  ls bioinf
+ 1305  cd bioinf/ncbi
+ 1306  ls
+ 1307  cd sra/
+ 1308  ls
+ 1309  ll
+ 1310  rm SRR390728.sra.cache
+ 1311  rm SRR390728.sra.vdbcache.cache
+ 1312  df -h
+ 1313  df -h home/hanchochang
+ 1314  df -h ~
+ 1315  cd
+ 1316  ls ~/bioinf/ncbi/sra
+ 1317  ll ~/bioinf/ncbi/sra
+ 1318  rm SRR5368359.sra.cache
+ 1319  rm ~/bioinf/ncbi/sra/SRR5368359.sra.cache
+ 1320  ll ~/bioinf/ncbi/sra
+ 1321  ll
+ 1322  cd share/week4
+ 1323  ls
+ 1324  cd ../week3
+ 1325  ls
+ 1326  ll
+ 1327  ls -lh
+ 1328  gunzip muscle_input.fasta.gz
+ 1329  ls
+ 1330  ll
+ 1331  cd ../week4
+ 1332  ll
+ 1333  gunzip SRR11412215.fastq.gz
+ 1334  ll
+ 1335  less SRR11412215.fastq
+ 1336  gzip SRR11412215.fastq
+ 1337  cd share/week4/
+ 1338  ll
+ 1339  cd /mnt/hgfs/windows_ubuntu_share
+ 1340  ls
+ 1341  mv SraRunTable.txt ~/share/week4
+ 1342  cd ~/share/week4
+ 1343  less Sr
+ 1344  less SraRunTable.txt
+ 1345  man cut
+ 1346  cut -d ',' -f 1 SraRunTable.txt
+ 1347  man cut
+ 1348  cut -d ',' 1 SraRunTable.txt
+ 1349  tail -n +2 | cut -d ',' -f 1 SraRunTable.txt
+ 1350  tail -n +2 SraRunTable.txt | cut -d ',' -f 1
+ 1351  tail -n +2 SraRunTable.txt | cut -d ',' -f 1 | wc -l
+ 1352  cp ../week3/uniprot_ids.txt ./get_sra_data.txt
+ 1353  ls
+ 1354  nano SraRunTable.txt
+ 1355  nano get_sra_data.txt
+ 1356  rm get_sra_data.txt
+ 1357  cp ../week3/get_uniprot_data.sh ./get_sra_data.sh
+ 1358  ls
+ 1359  nano get_sra_data.sh
+ 1360  history
+ 1361  docker
+ 1362  docker image
+ 1363  docker image ls
+ 1364  docker start bioinfo
+ 1365  docker exec -it bioinfo bash
+ 1366  docker container
+ 1367  docker container ls
+ 1368  docker start bioinfo
+ 1369  docker exec -it bioinfo bash
+ 1370  history
+ 1371  exit
+ 1372  cd share/week4
+ 1373  ls
+ 1374  du -hs
+ 1375  du -hs *.fastq.gz
+ 1376  ls
+ 1377  ll
+ 1378  ls
+ 1379  du
+ 1380  du -hs *.fastq.gz
+ 1381  ls -l *.fastq.gz
+ 1382  ls -l *.fastq.gz | wc -l
+ 1383  history
+ 1384  ls
+ 1385  nano get_sra_data.sh
+ 1386  nano SraRunTable.txt
+ 1387  cp SraRunTable.txt SraRunTable1.txt
+ 1388  nano SraRunTable.txt
+ 1389  cat get_sra_data.sh
+ 1390  tail -n +2 SraRunTable.txt | cut -d ',' -f 1
+ 1391  tail -n +2 SraRunTable.txt
+ 1392  nano get_sra_data.sh
+ 1393  ./get_sra_data.sh
+ 1394  source activate
+ 1395  conda activate rna-seq
+ 1396  ./get_sra_data.sh
+ 1397  cd share/week4
+ 1398  ll
+ 1399  top
+ 1400  ll
+ 1401  conda install fastqc
+ 1402  exit
+ 1403  source activate
+ 1404  cd share/week4
+ 1405  conda activate rna-seq
+ 1406  conda install fastqc
+ 1407  fastqc -h
+ 1408  fastqc
+ 1409  exit
+ 1410  source activate
+ 1411  conda activate rna-seq
+ 1412  conda install multiqc
+ 1413  salmon
+ 1414  salmon -h
+ 1415  multiqc
+ 1416  df -h
+ 1417  conda clean
+ 1418  conda clean --help
+ 1419  conda clean -a
+ 1420  df -h
+ 1421  conda install bowtie2
+ 1422  ll
+ 1423  conda install bowtie2
+ 1424  conda install samtools
+ 1425  conda install bcftools
+ 1426  conda deactive
+ 1427  conda deactivate
+ 1428  conda install nextflow
+ 1429  conda info
+ 1430  conda env list
+ 1431  ls /home/hanchochang/miniconda3/envs/msa
+ 1432  ls /home/hanchochang/miniconda3/envs/msa/lib
+ 1433  ls /home/hanchochang/miniconda3/envs/msa/bin
+ 1434  ls /home/hanchochang/miniconda3/envs/rna/bin
+ 1435  ls /home/hanchochang/miniconda3/envs/rna/lib
+ 1436  ls /home/hanchochang/miniconda3/envs/rna-seq/lib
+ 1437  ls /home/hanchochang/miniconda3/envs/rna-seq/bin
+ 1438  conda env list
+ 1439  ls /home/hanchochang/miniconda3/
+ 1440  ls /home/hanchochang/miniconda3/bin
+ 1441  conda activate rna-seq
+ 1442  df -h
+ 1443  cd share/week4
+ 1444  ls
+ 1445  fastqc SRR11412215.fastq.gz
+ 1446  mkdir fastqc
+ 1447  ll
+ 1448  ls SRR11412215_fastqc.html
+ 1449  mv *.html fastqc
+ 1450  ls
+ 1451  ls fastqc
+ 1452  fastqc -o fastqc/ SRR11412216.fastq.gz
+ 1453  mv fastqc fastqc_output/
+ 1454  ll
+ 1455  multiqc fastqc_output
+ 1456  ll fastqc_output
+ 1457  mv *.zip fastqc_output
+ 1458  ll
+ 1459  fastqc -o fastqc/ SRR11412217.fastq.gz
+ 1460  fastqc -o fastqc_output SRR11412217.fastq.gz
+ 1461  fastqc -o fastqc_output SRR11412218.fastq.gz
+ 1462  df -h
+ 1463  ls fastqc_output
+ 1464  ll fastqc_output
+ 1465  ll fastqc_output/*.html | wc -l
+ 1466  multiqc fastqc_output
+ 1467  history
+ 1468  exit
+ 1469  conda config
+ 1470  source activate
+ 1471  conda config
+ 1472  conda info
+ 1473  conda config --add channels bioconda
+ 1474  conda info
+ 1475  conda config --add channels conda-forge
+ 1476  conda info
+ 1477  conda config --help
+ 1478  nano /home/hanchochang/.condarc
+ 1479  cd share/week4
+ 1480  ls
+ 1481  conda activate rna-seq
+ 1482  prefetch SRR11412220
+ 1483  hisory
+ 1484  history
+ 1485  source activate
+ 1486  conda activate rna-seq
+ 1487  conda install salmon
+ 1488  source activate
+ 1489  conda activate rna-seq
+ 1490  conda install salmon
+ 1491  cd share/week5
+ 1492  cd share/
+ 1493  ls
+ 1494  mkdir week5
+ 1495  source activate
+ 1496  ls
+ 1497  cd week5
+ 1498  ls
+ 1499  unzip gencode.v38.transcripts.fa.gz
+ 1500  conda acitvate rna-sq
+ 1501  conda acitvate rna-seq
+ 1502  conda activate rna-seq
+ 1503  unzip gencode.v38.transcripts.fa.gz
+ 1504  ll
+ 1505  less gencode.v38.transcripts.fa.gz
+ 1506  gunzip gencode.v38.transcripts.fa.gz
+ 1507  ls
+ 1508  less gencode.v38.transcripts.fa
+ 1509  salmon
+ 1510  salmon index --help
+ 1511  conda install salmon
+ 1512  locate libboost_iostreams
+ 1513  conda install -c conda-forge -c bioconda salmon=1.3.0
+ 1514  conda info
+ 1515  nano /home/hanchochang/.condarc
+ 1516  conda info
+ 1517  conda install salmon
+ 1518  salmon
+ 1519  source activate
+ 1520  conda activate rna-seq
+ 1521  salmon
+ 1522  conda config --show channels
+ 1523  locate libboost_iostreams
+ 1524  locate libtbb.so.2
+ 1525  conda deactivate
+ 1526  conda activate rna
+ 1527  conda install salmon
+ 1528  salmon
+ 1529  conda deactivate
+ 1530  conda activate rna-seq
+ 1531  bowtie2
+ 1532  conda install tbb=2020.2
+ 1533  bowtie2
+ 1534  salmon
+ 1535  salmon --help
+ 1536  salmon index --help
+ 1537  conda install -c bioconda salmon
+ 1538  salmon
+ 1539  ls
+ 1540  cd share/week5
+ 1541  ls
+ 1542  salmon index -t gencode.v38.transcripts.fa -i gencode_v38_index --gencode
+ 1543  cd share/week5
+ 1544  ls
+ 1545  cd gencode_v38_index
+ 1546  ll
+ 1547  less ref_k31_fixed.fa
+ 1548  source activate
+ 1549  conda activate rna-seq
+ 1550  samtools
+ 1551  STAR
+ 1552  cd share/week4
+ 1553  pwd
+ 1554  df -h
+ 1555  du -hs
+ 1556  du -hs ./
+ 1557  ll
+ 1558  mv *.fastq.gz week5/
+ 1559  ls
+ 1560  ll
+ 1561  mv *.fastq.gz ../week5/
+ 1562  ll
+ 1563  cd ../week5
+ 1564  ll
+ 1565  salmon quant --help-reads | less
+ 1566  ls gencode_v38_index
+ 1567  ll gencode_v38_index
+ 1568  salmon quant -i gencode_v38_index -l A -o 11412215 -r SRR11412215.fastq.gz
+ 1569  rm -r gencode_v38_index
+ 1570  ls
+ 1571  salmon index -t gencode.v38.transcripts.fa -i gencode_v38_index --gencode
+ 1572  salmon quant -i gencode_v38_index -l A -o GSM4432378 -r SRR11412215.fastq.gz
+ 1573  ls
+ 1574  cd GSM4432378
+ 1575  ls
+ 1576  cd logs
+ 1577  ls
+ 1578  hat salmon_quant.log
+ 1579  less salmon_quant.log
+ 1580  salmon quant -i gencode_v38_index -l A -o GSM4432378 -r SRR11412216.fastq.gz
+ 1581  cd ../../
+ 1582  salmon quant -i gencode_v38_index -l A -o GSM4432378 -r SRR11412216.fastq.gz
+ 1583  wc -l GSM4432378/quant.sf
+ 1584  salmon quant -i gencode_v38_index -l A -o GSM4432378 -r SRR11412217.fastq.gz
+ 1585  wc -l GSM4432378/quant.sf
+ 1586  salmon quant -i gencode_v38_index -l A -o GSM4432378 -r SRR11412218.fastq.gz
+ 1587  conda list -n rna
+ 1588  conda list -n rna-seq
+ 1589  conda list -n base
+ 1590  history
+ 1591  cd share/week5
+ 1592  ls
+ 1593  cd GSM4432378
+ 1594  ls
+ 1595  cat cmd_info.json
+ 1596  cat lib_format_counts.json
+ 1597  source activate
+ 1598  conda en list
+ 1599  conda env list
+ 1600  conda info -e
+ 1601  conda create -n carpentry
+ 1602  cd share/week5
+ 1603  ll
+ 1604  cd ../week4
+ 1605  ll
+ 1606  rpm
+ 1607  echo PATH
+ 1608  echo $PATH
+ 1609  cd ~
+ 1610  ls ~/.mozilla/plugins/libnpasperaweb.so
+ 1611  ls /home/hanchochang/.aspera/connect/bin
+ 1612  nano /etc/profile
+ 1613  nano ./bash_profile
+ 1614  cat /home/hanchochang/.bash_profile
+ 1615  nano /home/hanchochang/.bash_profile
+ 1616  sudo apt-get remove aspera
+ 1617  nano ~/.bashrc
+ 1618  ls
+ 1619  ls -a
+ 1620  ls .mozilla
+ 1621  dpkg --list
+ 1622  clear
+ 1623  ls -a
+ 1624  cd ./aspera
+ 1625  cd .aspera
+ 1626  ls
+ 1627  ls -a
+ 1628  cd connect
+ 1629  ls
+ 1630  ls -a
+ 1631  ll -a
+ 1632  cd ~
+ 1633  ll -a
+ 1634  history
+ 1635  ascp
+ 1636  ascp -h
+ 1637  ascp -A
+ 1638  ls  installation_dir/.aspera
+ 1639  history
+ 1640  cd bioinf
+ 1641  ls -a
+ 1642  cd
+ 1643  ls -rf /.aspera
+ 1644  ls -a /.aspera
+ 1645  ls -rf /.aspera
+ 1646  ls -rf .aspera
+ 1647  rm -rf .aspera
+ 1648  ls -a
+ 1649  ls -rf ~/.mozilla
+ 1650  ls .mozilla
+ 1651  ls
+ 1652  cd .mozilla
+ 1653  ls -a
+ 1654  cd extensions
+ 1655  ls
+ 1656  ls -a
+ 1657  cd share/week4
+ 1658  less SraRunTable.txt
+ 1659  mv SraRunTable.txt ../week5
+ 1660  cd ../week5
+ 1661  ls
+ 1662  tail -n +2 SraRunTable.txt | cut -d ',' -f 19
+ 1663  less SraRunTable.txt
+ 1664  nano SraRunTable.txt
+ 1665  tail -n +2 SraRunTable.txt | cut -d ',' -f 19
+ 1666  tail -n +2 SraRunTable.txt | cut -d ',' -f 19 | uniq
+ 1667  tail -n +2 SraRunTable.txt | cut -d ',' -f 19 | uniq > geo_accessions.txt
+ 1668  cat geo_accessions.txt
+ 1669  nano run_salmon.sh
+ 1670  ./run_salmon.sh
+ 1671  ll
+ 1672  chmod u+x
+ 1673  chmod u+x run_salmon.sh
+ 1674  ./run_salmon.sh
+ 1675  ll
+ 1676  chmod g+x run_salmon.sh
+ 1677  ll
+ 1678  grep GSM4432378 SraRunTable.txt
+ 1679  grep GSM4432378 SraRunTable.txt | cut -d ',' 1
+ 1680  grep GSM4432378 SraRunTable.txt | cut -d ',' -c 1
+ 1681  grep GSM4432378 SraRunTable.txt | cut -d ',' -b 1
+ 1682  grep GSM4432378 SraRunTable.txt | cut -d ',' -f 1
+ 1683  nano run_salmon.sh
+ 1684  cd share/week5
+ 1685  ll
+ 1686  ./run_salmon.sh
+ 1687  nano run_salmon.sh
+ 1688  ./run_salmon.sh
+ 1689  nano run_salmon.sh
+ 1690  ./run_salmon.sh
+ 1691  nano run_salmon.sh
+ 1692  ./run_salmon.sh
+ 1693  source activate
+ 1694  conda activate rna-seq
+ 1695  salmon quant --help-read
+ 1696  salmon quant --help-reads
+ 1697  salmon quant --help-reads | less
+ 1698  rm SRR11412219.fastq.gz
+ 1699  ll
+ 1700  tree
+ 1701  ll
+ 1702  cd share/week4
+ 1703  ll
+ 1704  less SraRunTable1.txt
+ 1705  nano SraRunTable1.txt
+ 1706  nano SraRunTable.txt
+ 1707  ./run_salmon.sh
+ 1708  tail -n +2 SraRunTable.txt | cut -d ',' -f 19 | uniq
+ 1709  tail -n +2 SraRunTable.txt | cut -d ',' -f 19 | uniq >> geo_accessions.txt
+ 1710  less geo_accessions.txt
+ 1711  ./run_salmon.sh
+ 1712  ll
+ 1713  rm -rf 11412215
+ 1714  ll
+ 1715  nano run_salmon.sh
+ 1716  ./run_salmon.sh
+ 1717  nano run_salmon.sh
+ 1718  nano SraRunTable.txt
+ 1719  ./run_salmon.sh
+ 1720  nano SraRunTable.txt
+ 1721  nano run_salmon.sh
+ 1722  cd ../week5
+ 1723  GEO=$(cat geo_accessions.txt)
+ 1724  echo $(cat geo_accessions.txt)
+ 1725  nano geo_accessions.txt
+ 1726  tail -n +2 SraRunTable.txt | cut -d ',' -f 19 | uniq > geo_accessions.txt
+ 1727  echo $(cat geo_accessions.txt)
+ 1728  tail -n +2 SraRunTable.txt | cut -d ',' -f 19 
+ 1729  tail -n +2 SraRunTable.txt
+ 1730  ll
+ 1731  cd ../week4
+ 1732  ll
+ 1733  cp SraRunTable1.txt SraRunTable.txt
+ 1734  nano SraRunTable.txt
+ 1735  cd ../week5
+ 1736  rm SraRunTable.txt
+ 1737  mv ../week4/SraRunTable.txt .
+ 1738  ll
+ 1739  tail -n +2 SraRunTable.txt | cut -d ',' -f 19 
+ 1740  tail -n +2 SraRunTable.txt | cut -d ',' -f 19 | uniq
+ 1741  tail -n +2 SraRunTable.txt | cut -d ',' -f 19 | uniq >> geo_accessions.txt
+ 1742  less geo_accessions.txt
+ 1743  tail -n +2 SraRunTable.txt | cut -d ',' -f 19 | uniq > geo_accessions.txt
+ 1744  less geo_accessions.txt
+ 1745  ./run_salmon.sh
+ 1746  nano run_salmon.sh
+ 1747  ll
+ 1748  ./run_salmon.sh
+ 1749  cd share/week5
+ 1750  ll
+ 1751  cat geo_accessions.txt
+ 1752  cd share/week5
+ 1753  ls
+ 1754  cd GSM4432378
+ 1755  ls
+ 1756  wc -l quant.sf
+ 1757  ll
+ 1758  cd GSM4432378
+ 1759  cat cmd_info.json
+ 1760  cd ../
+ 1761  nano run_salmon.sh
+ 1762  rm -rf GSM4432378
+ 1763  ll
+ 1764  ./run_salmon.sh
+ 1765  cd share/week5
+ 1766  ls
+ 1767  ll
+ 1768  cd GSM4432379
+ 1769  ls
+ 1770  wc -l quant.sf
+ 1771  cd ,,
+ 1772  cd ,,/
+ 1773  cd ..
+ 1774  history
